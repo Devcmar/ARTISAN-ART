@@ -1,0 +1,259 @@
+.body-item{
+    background-color: #e7f1f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h1{
+    font-family: 'Montserrat',Arial,sans-serif;
+    color: #0f3250;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+
+
+.card {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card-container {
+    display: flex;
+    height: 100%;
+    width: 80vw;
+    max-width: 1000px;
+    min-width: 600px;
+    min-height: 280px;
+box-sizing: border-box;
+word-wrap: break-word;
+   }
+
+.card-right {
+height: auto;
+width: 50%;
+border-top-right-radius: 50px;
+}
+
+.card-left {
+    background-color: #ffffff;
+    height: fit-content;
+    width: 50%;
+    border-bottom-left-radius: 50px;
+}
+
+.imgInfo {
+    width : 20px;
+    height : 20px;
+    margin:5px;
+}
+
+.imgAdresse {
+    width : 20px;
+    height : 20px;
+    margin:5px;
+}
+
+.imgHoraires{
+    width : 20px;
+    height : 20px;
+    margin:5px;
+}
+
+.title-contacts{
+    margin:7px;
+}
+
+.title-adresse {
+    margin:7px;
+}
+
+.title-horaires {
+    margin:7px;
+}
+
+.text-contacts{
+    width : 100%;
+    height: auto;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.text-adresse{
+    width : 100%;
+    height: auto;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.text-horaires{
+    width : 100%;
+    height: auto;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.contacts{
+    background-color: #f2f4f7;
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    color: #0f3250;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 15px;
+    }
+    
+.adresse {
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    color: #0f3250;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.horaires {
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    color: #0f3250;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 15px;
+}
+
+ @media (max-width: 700px) {
+
+    .body-item {
+        display: flex;
+        margin: 10px;
+    }
+
+    .container-item {
+        width: auto;
+        height: 100%;
+
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .card-container {
+        display: block;
+        width: auto;
+        min-width: 100px;
+        min-height : 100px;
+    }
+
+    .card-right {
+        height: 200px;
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 50px;
+        }
+        
+        .card-left {
+            background-color: #ffffff;
+            height: fit-content;
+        width: 100%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 50px;
+        min-width: 50px;
+        padding-top: 20px;;
+        }
+
+        .contacts{
+            background-color: #f2f4f7;
+            display: flex;
+            border-radius: 20px;
+            color: #0f3250;
+            font-family: 'Montserrat',Arial,sans-serif;
+            font-weight: 500;
+            padding: 2px;
+            font-size: 10px;
+            margin:5px;
+        }
+            
+        .adresse {
+            display: flex;
+            margin: 2px;
+            border-radius: 10px;
+            color: #0f3250;
+            font-family: 'Montserrat',Arial,sans-serif;
+            font-weight: 500;
+            padding: 2px;
+            font-size: 10px;
+        }
+        
+        .horaires {
+            display: flex;
+            margin: 2px;
+            border-radius: 10px;
+            color: "0f3250";
+            font-family: 'Montserrat',Arial,sans-serif;
+            font-weight: 500;
+            padding: 2px;
+            font-size: 10px;
+        }
+
+} 
+.call-link {
+    color: #0f3250; /* Changez la couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+}
+
+.call-link:hover {
+    text-decoration: underline; /* Ajoute un soulignement lors du survol (facultatif) */
+}
+
+
+.flex-return {
+    display: flex;
+    justify-content: space-between; /* Aligne le titre et le bouton aux extrémités opposées */
+    align-items: center; /* Aligne verticalement le titre et le bouton */
+    padding: 10px 20px; /* Ajoute un peu de padding autour du conteneur */
+}
+
+
+.return {
+    padding: 8px 16px; /* Padding autour du texte du bouton */
+    font-family: 'Montserrat' !important;
+    font-weight: 300;
+    font-size: 16px; /* Taille de la police du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    background-color: #0f3250;; /* Couleur de fond du bouton */
+    border: none; /* Supprime les bordures par défaut du bouton */
+    border-radius: 4px; /* Bordures arrondies du bouton */
+    cursor: pointer; /* Change le curseur pour indiquer que le bouton est cliquable */
+    transition: background-color 0.5s; /* Animation de la couleur de fond lors du survol */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.return:hover {
+    background-color: #B0D2D9; /* Couleur de fond du bouton lors du survol */
+    color: #0f3250;
+}
+
+/* Styles pour les petits écrans */
+@media (max-width: 768px) {
+    .flex-return {
+        flex-direction: column; /* Empile le titre et le bouton verticalement */
+        align-items: flex-start; /* Aligne le titre et le bouton à gauche */
+    }
+
+    .return {
+        margin-top: 10px; /* Ajoute un espace au-dessus du bouton lorsqu'il est empilé sous le titre */
+    }
+}
